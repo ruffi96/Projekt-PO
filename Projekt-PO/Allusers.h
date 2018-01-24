@@ -1,6 +1,6 @@
 #pragma once
 #include<iostream>
-#include<list>
+#include<vector>
 #include<string>
 #include"User.h"
 
@@ -9,7 +9,7 @@ using namespace std;
 class Allusers
 {
 public:
-	list<User> uzytokownicy;
+	vector<class User> uzytokownicy;
 
 
 	Allusers();
